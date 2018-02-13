@@ -15,6 +15,7 @@ namespace Naive
         public Login()
         {
             InitializeComponent();
+            //some silly stuff here
         }
     }
 }
