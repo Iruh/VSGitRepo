@@ -42,6 +42,7 @@
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.LoginSignUpPanel = new System.Windows.Forms.Panel();
+            this.LoginSignInRed_btn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.LoginAdminToken = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.LoginSignInConfirmation_txt = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label6 = new System.Windows.Forms.Label();
@@ -55,7 +56,7 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.LoginSignInRed_btn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.X = new System.Windows.Forms.Button();
             this.LoginLoginPanel.SuspendLayout();
             this.LoginSignUpPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -251,6 +252,32 @@
             this.LoginSignUpPanel.TabIndex = 1;
             this.LoginSignUpPanel.Visible = false;
             // 
+            // LoginSignInRed_btn
+            // 
+            this.LoginSignInRed_btn.ActiveBorderThickness = 1;
+            this.LoginSignInRed_btn.ActiveCornerRadius = 1;
+            this.LoginSignInRed_btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRed_btn.ActiveForecolor = System.Drawing.Color.OrangeRed;
+            this.LoginSignInRed_btn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRed_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRed_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignInRed_btn.BackgroundImage")));
+            this.LoginSignInRed_btn.ButtonText = "Sign in";
+            this.LoginSignInRed_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginSignInRed_btn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginSignInRed_btn.ForeColor = System.Drawing.Color.OrangeRed;
+            this.LoginSignInRed_btn.IdleBorderThickness = 1;
+            this.LoginSignInRed_btn.IdleCornerRadius = 20;
+            this.LoginSignInRed_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRed_btn.IdleForecolor = System.Drawing.Color.White;
+            this.LoginSignInRed_btn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRed_btn.Location = new System.Drawing.Point(19, 251);
+            this.LoginSignInRed_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoginSignInRed_btn.Name = "LoginSignInRed_btn";
+            this.LoginSignInRed_btn.Size = new System.Drawing.Size(97, 20);
+            this.LoginSignInRed_btn.TabIndex = 17;
+            this.LoginSignInRed_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoginSignInRed_btn.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            // 
             // LoginAdminToken
             // 
             this.LoginAdminToken.BorderColorFocused = System.Drawing.Color.White;
@@ -444,31 +471,20 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // LoginSignInRed_btn
+            // X
             // 
-            this.LoginSignInRed_btn.ActiveBorderThickness = 1;
-            this.LoginSignInRed_btn.ActiveCornerRadius = 1;
-            this.LoginSignInRed_btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.ActiveForecolor = System.Drawing.Color.OrangeRed;
-            this.LoginSignInRed_btn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignInRed_btn.BackgroundImage")));
-            this.LoginSignInRed_btn.ButtonText = "Sign in";
-            this.LoginSignInRed_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LoginSignInRed_btn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginSignInRed_btn.ForeColor = System.Drawing.Color.OrangeRed;
-            this.LoginSignInRed_btn.IdleBorderThickness = 1;
-            this.LoginSignInRed_btn.IdleCornerRadius = 20;
-            this.LoginSignInRed_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.IdleForecolor = System.Drawing.Color.White;
-            this.LoginSignInRed_btn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.Location = new System.Drawing.Point(19, 251);
-            this.LoginSignInRed_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.LoginSignInRed_btn.Name = "LoginSignInRed_btn";
-            this.LoginSignInRed_btn.Size = new System.Drawing.Size(97, 20);
-            this.LoginSignInRed_btn.TabIndex = 17;
-            this.LoginSignInRed_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LoginSignInRed_btn.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            this.X.FlatAppearance.BorderSize = 0;
+            this.X.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.X.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.X.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.X.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.X.Location = new System.Drawing.Point(330, 2);
+            this.X.Name = "X";
+            this.X.Size = new System.Drawing.Size(30, 21);
+            this.X.TabIndex = 3;
+            this.X.Text = "X";
+            this.X.UseVisualStyleBackColor = true;
+            this.X.Click += new System.EventHandler(this.X_Click);
             // 
             // Login
             // 
@@ -478,6 +494,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(361, 347);
+            this.Controls.Add(this.X);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.LoginSignUpPanel);
             this.Controls.Add(this.LoginLoginPanel);
@@ -522,6 +539,7 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator2;
         private Bunifu.Framework.UI.BunifuThinButton2 LoginSignInRed_btn;
+        private System.Windows.Forms.Button X;
     }
 }
 
