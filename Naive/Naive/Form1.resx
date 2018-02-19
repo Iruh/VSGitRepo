@@ -217,14 +217,14 @@
         SUVORK5CYII=
 </value>
   </data>
-  <data name="LoginSignUpRedirect_lbl.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="LoginSignUpRedirect_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGEAAAAUCAYAAACd6VPRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABISURBVFhH7dExAQAwDMCgGah/uZ2M5uBAAW9mllsSAiQE
         SAiQECAhQEKAhAAJARICJARICJAQICFAQoCEAAkBEgIkBEg4N/sBzW20cWKZ+eAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="LoginSignIn_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="LoginSignInSignIn_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIkAAAApCAYAAAABOAonAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVHhe7dIxAQAgAAQhC3z/uNrAK8BAA862Cz+SkCQh
@@ -232,19 +232,19 @@
         JCRJSJKQJCFJQpKEJAlJEpIkJEkIuw/LrTQ+D22tSwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="LoginSignInRed_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="LoginSignInRedirect_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGEAAAAUCAYAAACd6VPRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABISURBVFhH7dExAQAwDMCgGah/uZ2M5uBAAW9mllsSAiQE
         SAiQECAhQEKAhAAJARICJARICJAQICFAQoCEAAkBEgIkBEg4N/sBzW20cWKZ+eAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="LoginSignInConfirmation_txt.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="LoginSignUpSave_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAIkAAAApCAYAAAABOAonAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB0SURBVHhe7dIxAQAgAAQhC3z/uNrAK8BAA862Cz+SkCQh
+        iVBORw0KGgoAAAANSUhEUgAAAIkAAAAiCAYAAABr//rkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABlSURBVHhe7dIxAQAgAAQhC3z/uNrAK8BAA862Cz+SkCQh
         SUKShCQJSRKSJCRJSJKQJCFJQpKEJAlJEpIkJElIkpAkIUlCkoQkCUkSkiQkSUiSkCQhSUKShCQJSRKS
-        JCRJSJKQJCFJQpKEJAlJEpIkJEkIuw/LrTQ+D22tSwAAAABJRU5ErkJggg==
+        JCRJSJIQdh8qreaZ/3cwzgAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

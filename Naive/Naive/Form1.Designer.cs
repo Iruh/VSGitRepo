@@ -32,31 +32,33 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.LoginLoginPanel = new System.Windows.Forms.Panel();
-            this.LoginSignUpRedirect_lbl = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.LoginSignUpRedirect_btn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.LoginSignIn_btn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.LoginSignInSignIn_btn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.LoginStaffPass_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.LoginStaffId_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.LoginSignInStaffPass_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.LoginSignInStaffId_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.LoginSignUpPanel = new System.Windows.Forms.Panel();
-            this.LoginSignInRed_btn = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.LoginAdminToken = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.LoginSignInConfirmation_txt = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.LoginSignInRedirect_btn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.LoginAdminToken_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.LoginSignUpSave_btn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label6 = new System.Windows.Forms.Label();
-            this.LoginPasswordSignUp_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.LoginSignUpPassword_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label5 = new System.Windows.Forms.Label();
-            this.LoginStaffIdSignUp_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.LoginSignUpStaffId_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label4 = new System.Windows.Forms.Label();
-            this.LoginLastName_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.LoginSignUpLastName_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label3 = new System.Windows.Forms.Label();
-            this.LoginFirstName_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.LoginSignUpFirstName_txt = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.X = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.LoginLoginPanel.SuspendLayout();
             this.LoginSignUpPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -69,13 +71,13 @@
             // 
             // LoginLoginPanel
             // 
-            this.LoginLoginPanel.Controls.Add(this.LoginSignUpRedirect_lbl);
+            this.LoginLoginPanel.Controls.Add(this.LoginSignUpRedirect_btn);
             this.LoginLoginPanel.Controls.Add(this.bunifuCustomLabel2);
-            this.LoginLoginPanel.Controls.Add(this.LoginSignIn_btn);
+            this.LoginLoginPanel.Controls.Add(this.LoginSignInSignIn_btn);
             this.LoginLoginPanel.Controls.Add(this.label2);
             this.LoginLoginPanel.Controls.Add(this.label1);
-            this.LoginLoginPanel.Controls.Add(this.LoginStaffPass_txt);
-            this.LoginLoginPanel.Controls.Add(this.LoginStaffId_txt);
+            this.LoginLoginPanel.Controls.Add(this.LoginSignInStaffPass_txt);
+            this.LoginLoginPanel.Controls.Add(this.LoginSignInStaffId_txt);
             this.LoginLoginPanel.Controls.Add(this.bunifuCustomLabel1);
             this.LoginLoginPanel.Controls.Add(this.bunifuSeparator1);
             this.LoginLoginPanel.Location = new System.Drawing.Point(12, 63);
@@ -83,31 +85,31 @@
             this.LoginLoginPanel.Size = new System.Drawing.Size(334, 277);
             this.LoginLoginPanel.TabIndex = 0;
             // 
-            // LoginSignUpRedirect_lbl
+            // LoginSignUpRedirect_btn
             // 
-            this.LoginSignUpRedirect_lbl.ActiveBorderThickness = 1;
-            this.LoginSignUpRedirect_lbl.ActiveCornerRadius = 1;
-            this.LoginSignUpRedirect_lbl.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignUpRedirect_lbl.ActiveForecolor = System.Drawing.Color.MediumTurquoise;
-            this.LoginSignUpRedirect_lbl.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignUpRedirect_lbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignUpRedirect_lbl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignUpRedirect_lbl.BackgroundImage")));
-            this.LoginSignUpRedirect_lbl.ButtonText = "Sign up here";
-            this.LoginSignUpRedirect_lbl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LoginSignUpRedirect_lbl.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginSignUpRedirect_lbl.ForeColor = System.Drawing.Color.OrangeRed;
-            this.LoginSignUpRedirect_lbl.IdleBorderThickness = 1;
-            this.LoginSignUpRedirect_lbl.IdleCornerRadius = 20;
-            this.LoginSignUpRedirect_lbl.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignUpRedirect_lbl.IdleForecolor = System.Drawing.Color.White;
-            this.LoginSignUpRedirect_lbl.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignUpRedirect_lbl.Location = new System.Drawing.Point(166, 225);
-            this.LoginSignUpRedirect_lbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.LoginSignUpRedirect_lbl.Name = "LoginSignUpRedirect_lbl";
-            this.LoginSignUpRedirect_lbl.Size = new System.Drawing.Size(97, 20);
-            this.LoginSignUpRedirect_lbl.TabIndex = 10;
-            this.LoginSignUpRedirect_lbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LoginSignUpRedirect_lbl.Click += new System.EventHandler(this.LoginSignUpRedirect_lbl_Click);
+            this.LoginSignUpRedirect_btn.ActiveBorderThickness = 1;
+            this.LoginSignUpRedirect_btn.ActiveCornerRadius = 1;
+            this.LoginSignUpRedirect_btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpRedirect_btn.ActiveForecolor = System.Drawing.Color.MediumTurquoise;
+            this.LoginSignUpRedirect_btn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpRedirect_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpRedirect_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignUpRedirect_btn.BackgroundImage")));
+            this.LoginSignUpRedirect_btn.ButtonText = "Sign up here";
+            this.LoginSignUpRedirect_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginSignUpRedirect_btn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginSignUpRedirect_btn.ForeColor = System.Drawing.Color.OrangeRed;
+            this.LoginSignUpRedirect_btn.IdleBorderThickness = 1;
+            this.LoginSignUpRedirect_btn.IdleCornerRadius = 20;
+            this.LoginSignUpRedirect_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpRedirect_btn.IdleForecolor = System.Drawing.Color.White;
+            this.LoginSignUpRedirect_btn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpRedirect_btn.Location = new System.Drawing.Point(166, 225);
+            this.LoginSignUpRedirect_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoginSignUpRedirect_btn.Name = "LoginSignUpRedirect_btn";
+            this.LoginSignUpRedirect_btn.Size = new System.Drawing.Size(97, 20);
+            this.LoginSignUpRedirect_btn.TabIndex = 10;
+            this.LoginSignUpRedirect_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoginSignUpRedirect_btn.Click += new System.EventHandler(this.LoginSignUpRedirect_lbl_Click);
             // 
             // bunifuCustomLabel2
             // 
@@ -120,30 +122,30 @@
             this.bunifuCustomLabel2.TabIndex = 3;
             this.bunifuCustomLabel2.Text = "New Member?";
             // 
-            // LoginSignIn_btn
+            // LoginSignInSignIn_btn
             // 
-            this.LoginSignIn_btn.ActiveBorderThickness = 1;
-            this.LoginSignIn_btn.ActiveCornerRadius = 1;
-            this.LoginSignIn_btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignIn_btn.ActiveForecolor = System.Drawing.Color.OrangeRed;
-            this.LoginSignIn_btn.ActiveLineColor = System.Drawing.Color.OrangeRed;
-            this.LoginSignIn_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignIn_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignIn_btn.BackgroundImage")));
-            this.LoginSignIn_btn.ButtonText = "Sign in";
-            this.LoginSignIn_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LoginSignIn_btn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginSignIn_btn.ForeColor = System.Drawing.Color.OrangeRed;
-            this.LoginSignIn_btn.IdleBorderThickness = 1;
-            this.LoginSignIn_btn.IdleCornerRadius = 20;
-            this.LoginSignIn_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignIn_btn.IdleForecolor = System.Drawing.Color.OrangeRed;
-            this.LoginSignIn_btn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignIn_btn.Location = new System.Drawing.Point(88, 169);
-            this.LoginSignIn_btn.Margin = new System.Windows.Forms.Padding(5);
-            this.LoginSignIn_btn.Name = "LoginSignIn_btn";
-            this.LoginSignIn_btn.Size = new System.Drawing.Size(137, 41);
-            this.LoginSignIn_btn.TabIndex = 9;
-            this.LoginSignIn_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoginSignInSignIn_btn.ActiveBorderThickness = 1;
+            this.LoginSignInSignIn_btn.ActiveCornerRadius = 1;
+            this.LoginSignInSignIn_btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInSignIn_btn.ActiveForecolor = System.Drawing.Color.OrangeRed;
+            this.LoginSignInSignIn_btn.ActiveLineColor = System.Drawing.Color.OrangeRed;
+            this.LoginSignInSignIn_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInSignIn_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignInSignIn_btn.BackgroundImage")));
+            this.LoginSignInSignIn_btn.ButtonText = "Sign in";
+            this.LoginSignInSignIn_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginSignInSignIn_btn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginSignInSignIn_btn.ForeColor = System.Drawing.Color.OrangeRed;
+            this.LoginSignInSignIn_btn.IdleBorderThickness = 1;
+            this.LoginSignInSignIn_btn.IdleCornerRadius = 20;
+            this.LoginSignInSignIn_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInSignIn_btn.IdleForecolor = System.Drawing.Color.OrangeRed;
+            this.LoginSignInSignIn_btn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInSignIn_btn.Location = new System.Drawing.Point(88, 169);
+            this.LoginSignInSignIn_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.LoginSignInSignIn_btn.Name = "LoginSignInSignIn_btn";
+            this.LoginSignInSignIn_btn.Size = new System.Drawing.Size(137, 41);
+            this.LoginSignInSignIn_btn.TabIndex = 9;
+            this.LoginSignInSignIn_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -168,43 +170,45 @@
             this.label1.Text = "Staff ID";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // LoginStaffPass_txt
+            // LoginSignInStaffPass_txt
             // 
-            this.LoginStaffPass_txt.BorderColorFocused = System.Drawing.Color.White;
-            this.LoginStaffPass_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginStaffPass_txt.BorderColorMouseHover = System.Drawing.Color.White;
-            this.LoginStaffPass_txt.BorderThickness = 1;
-            this.LoginStaffPass_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LoginStaffPass_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.LoginStaffPass_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginStaffPass_txt.isPassword = true;
-            this.LoginStaffPass_txt.Location = new System.Drawing.Point(48, 130);
-            this.LoginStaffPass_txt.Margin = new System.Windows.Forms.Padding(4);
-            this.LoginStaffPass_txt.Name = "LoginStaffPass_txt";
-            this.LoginStaffPass_txt.Size = new System.Drawing.Size(215, 30);
-            this.LoginStaffPass_txt.TabIndex = 6;
-            this.LoginStaffPass_txt.Text = "bunifuMet";
-            this.LoginStaffPass_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.LoginStaffPass_txt.OnValueChanged += new System.EventHandler(this.LoginStaffPass_txt_OnValueChanged);
+            this.LoginSignInStaffPass_txt.BorderColorFocused = System.Drawing.Color.White;
+            this.LoginSignInStaffPass_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignInStaffPass_txt.BorderColorMouseHover = System.Drawing.Color.White;
+            this.LoginSignInStaffPass_txt.BorderThickness = 1;
+            this.LoginSignInStaffPass_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginSignInStaffPass_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.LoginSignInStaffPass_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignInStaffPass_txt.isPassword = true;
+            this.LoginSignInStaffPass_txt.Location = new System.Drawing.Point(48, 130);
+            this.LoginSignInStaffPass_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginSignInStaffPass_txt.Name = "LoginSignInStaffPass_txt";
+            this.LoginSignInStaffPass_txt.Size = new System.Drawing.Size(215, 30);
+            this.LoginSignInStaffPass_txt.TabIndex = 6;
+            this.LoginSignInStaffPass_txt.Text = "bunifuMet";
+            this.LoginSignInStaffPass_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginSignInStaffPass_txt.OnValueChanged += new System.EventHandler(this.LoginStaffPass_txt_OnValueChanged);
             // 
-            // LoginStaffId_txt
+            // LoginSignInStaffId_txt
             // 
-            this.LoginStaffId_txt.BorderColorFocused = System.Drawing.Color.White;
-            this.LoginStaffId_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginStaffId_txt.BorderColorMouseHover = System.Drawing.Color.White;
-            this.LoginStaffId_txt.BorderThickness = 1;
-            this.LoginStaffId_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LoginStaffId_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.LoginStaffId_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginStaffId_txt.isPassword = false;
-            this.LoginStaffId_txt.Location = new System.Drawing.Point(48, 75);
-            this.LoginStaffId_txt.Margin = new System.Windows.Forms.Padding(4);
-            this.LoginStaffId_txt.Name = "LoginStaffId_txt";
-            this.LoginStaffId_txt.Size = new System.Drawing.Size(215, 30);
-            this.LoginStaffId_txt.TabIndex = 5;
-            this.LoginStaffId_txt.Text = "eg 5678";
-            this.LoginStaffId_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.LoginStaffId_txt.OnValueChanged += new System.EventHandler(this.LoginStaffId_txt_OnValueChanged);
+            this.LoginSignInStaffId_txt.BorderColorFocused = System.Drawing.Color.White;
+            this.LoginSignInStaffId_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignInStaffId_txt.BorderColorMouseHover = System.Drawing.Color.White;
+            this.LoginSignInStaffId_txt.BorderThickness = 1;
+            this.LoginSignInStaffId_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginSignInStaffId_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.LoginSignInStaffId_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignInStaffId_txt.isPassword = false;
+            this.LoginSignInStaffId_txt.Location = new System.Drawing.Point(48, 75);
+            this.LoginSignInStaffId_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginSignInStaffId_txt.Name = "LoginSignInStaffId_txt";
+            this.LoginSignInStaffId_txt.Size = new System.Drawing.Size(215, 30);
+            this.LoginSignInStaffId_txt.TabIndex = 5;
+            this.LoginSignInStaffId_txt.Text = "eg 5678";
+            this.LoginSignInStaffId_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginSignInStaffId_txt.OnValueChanged += new System.EventHandler(this.LoginStaffId_txt_OnValueChanged);
+            this.LoginSignInStaffId_txt.Enter += new System.EventHandler(this.LoginSignInStaffId_txt_Enter);
+            this.LoginSignInStaffId_txt.Leave += new System.EventHandler(this.LoginSignInStaffId_txt_Leave);
             // 
             // bunifuCustomLabel1
             // 
@@ -233,17 +237,19 @@
             // 
             // LoginSignUpPanel
             // 
-            this.LoginSignUpPanel.Controls.Add(this.LoginSignInRed_btn);
-            this.LoginSignUpPanel.Controls.Add(this.LoginAdminToken);
-            this.LoginSignUpPanel.Controls.Add(this.LoginSignInConfirmation_txt);
+            this.LoginSignUpPanel.Controls.Add(this.label7);
+            this.LoginSignUpPanel.Controls.Add(this.bunifuMetroTextbox1);
+            this.LoginSignUpPanel.Controls.Add(this.LoginSignInRedirect_btn);
+            this.LoginSignUpPanel.Controls.Add(this.LoginAdminToken_txt);
+            this.LoginSignUpPanel.Controls.Add(this.LoginSignUpSave_btn);
             this.LoginSignUpPanel.Controls.Add(this.label6);
-            this.LoginSignUpPanel.Controls.Add(this.LoginPasswordSignUp_txt);
+            this.LoginSignUpPanel.Controls.Add(this.LoginSignUpPassword_txt);
             this.LoginSignUpPanel.Controls.Add(this.label5);
-            this.LoginSignUpPanel.Controls.Add(this.LoginStaffIdSignUp_txt);
+            this.LoginSignUpPanel.Controls.Add(this.LoginSignUpStaffId_txt);
             this.LoginSignUpPanel.Controls.Add(this.label4);
-            this.LoginSignUpPanel.Controls.Add(this.LoginLastName_txt);
+            this.LoginSignUpPanel.Controls.Add(this.LoginSignUpLastName_txt);
             this.LoginSignUpPanel.Controls.Add(this.label3);
-            this.LoginSignUpPanel.Controls.Add(this.LoginFirstName_txt);
+            this.LoginSignUpPanel.Controls.Add(this.LoginSignUpFirstName_txt);
             this.LoginSignUpPanel.Controls.Add(this.bunifuCustomLabel3);
             this.LoginSignUpPanel.Controls.Add(this.bunifuSeparator2);
             this.LoginSignUpPanel.Location = new System.Drawing.Point(414, 63);
@@ -252,74 +258,74 @@
             this.LoginSignUpPanel.TabIndex = 1;
             this.LoginSignUpPanel.Visible = false;
             // 
-            // LoginSignInRed_btn
+            // LoginSignInRedirect_btn
             // 
-            this.LoginSignInRed_btn.ActiveBorderThickness = 1;
-            this.LoginSignInRed_btn.ActiveCornerRadius = 1;
-            this.LoginSignInRed_btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.ActiveForecolor = System.Drawing.Color.OrangeRed;
-            this.LoginSignInRed_btn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignInRed_btn.BackgroundImage")));
-            this.LoginSignInRed_btn.ButtonText = "Sign in";
-            this.LoginSignInRed_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LoginSignInRed_btn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginSignInRed_btn.ForeColor = System.Drawing.Color.OrangeRed;
-            this.LoginSignInRed_btn.IdleBorderThickness = 1;
-            this.LoginSignInRed_btn.IdleCornerRadius = 20;
-            this.LoginSignInRed_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.IdleForecolor = System.Drawing.Color.White;
-            this.LoginSignInRed_btn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInRed_btn.Location = new System.Drawing.Point(19, 251);
-            this.LoginSignInRed_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.LoginSignInRed_btn.Name = "LoginSignInRed_btn";
-            this.LoginSignInRed_btn.Size = new System.Drawing.Size(97, 20);
-            this.LoginSignInRed_btn.TabIndex = 17;
-            this.LoginSignInRed_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LoginSignInRed_btn.Click += new System.EventHandler(this.bunifuThinButton21_Click);
+            this.LoginSignInRedirect_btn.ActiveBorderThickness = 1;
+            this.LoginSignInRedirect_btn.ActiveCornerRadius = 1;
+            this.LoginSignInRedirect_btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRedirect_btn.ActiveForecolor = System.Drawing.Color.OrangeRed;
+            this.LoginSignInRedirect_btn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRedirect_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRedirect_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignInRedirect_btn.BackgroundImage")));
+            this.LoginSignInRedirect_btn.ButtonText = "Sign in";
+            this.LoginSignInRedirect_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginSignInRedirect_btn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginSignInRedirect_btn.ForeColor = System.Drawing.Color.OrangeRed;
+            this.LoginSignInRedirect_btn.IdleBorderThickness = 1;
+            this.LoginSignInRedirect_btn.IdleCornerRadius = 20;
+            this.LoginSignInRedirect_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRedirect_btn.IdleForecolor = System.Drawing.Color.White;
+            this.LoginSignInRedirect_btn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignInRedirect_btn.Location = new System.Drawing.Point(4, 253);
+            this.LoginSignInRedirect_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoginSignInRedirect_btn.Name = "LoginSignInRedirect_btn";
+            this.LoginSignInRedirect_btn.Size = new System.Drawing.Size(97, 20);
+            this.LoginSignInRedirect_btn.TabIndex = 17;
+            this.LoginSignInRedirect_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoginSignInRedirect_btn.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
-            // LoginAdminToken
+            // LoginAdminToken_txt
             // 
-            this.LoginAdminToken.BorderColorFocused = System.Drawing.Color.White;
-            this.LoginAdminToken.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginAdminToken.BorderColorMouseHover = System.Drawing.Color.White;
-            this.LoginAdminToken.BorderThickness = 1;
-            this.LoginAdminToken.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LoginAdminToken.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.LoginAdminToken.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginAdminToken.isPassword = true;
-            this.LoginAdminToken.Location = new System.Drawing.Point(86, 219);
-            this.LoginAdminToken.Margin = new System.Windows.Forms.Padding(4);
-            this.LoginAdminToken.Name = "LoginAdminToken";
-            this.LoginAdminToken.Size = new System.Drawing.Size(180, 26);
-            this.LoginAdminToken.TabIndex = 16;
-            this.LoginAdminToken.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.LoginAdminToken.Visible = false;
+            this.LoginAdminToken_txt.BorderColorFocused = System.Drawing.Color.White;
+            this.LoginAdminToken_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginAdminToken_txt.BorderColorMouseHover = System.Drawing.Color.White;
+            this.LoginAdminToken_txt.BorderThickness = 1;
+            this.LoginAdminToken_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginAdminToken_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.LoginAdminToken_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginAdminToken_txt.isPassword = true;
+            this.LoginAdminToken_txt.Location = new System.Drawing.Point(151, 247);
+            this.LoginAdminToken_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginAdminToken_txt.Name = "LoginAdminToken_txt";
+            this.LoginAdminToken_txt.Size = new System.Drawing.Size(180, 26);
+            this.LoginAdminToken_txt.TabIndex = 16;
+            this.LoginAdminToken_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginAdminToken_txt.Visible = false;
             // 
-            // LoginSignInConfirmation_txt
+            // LoginSignUpSave_btn
             // 
-            this.LoginSignInConfirmation_txt.ActiveBorderThickness = 1;
-            this.LoginSignInConfirmation_txt.ActiveCornerRadius = 1;
-            this.LoginSignInConfirmation_txt.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInConfirmation_txt.ActiveForecolor = System.Drawing.Color.MediumTurquoise;
-            this.LoginSignInConfirmation_txt.ActiveLineColor = System.Drawing.Color.MediumTurquoise;
-            this.LoginSignInConfirmation_txt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInConfirmation_txt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignInConfirmation_txt.BackgroundImage")));
-            this.LoginSignInConfirmation_txt.ButtonText = "Save";
-            this.LoginSignInConfirmation_txt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LoginSignInConfirmation_txt.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginSignInConfirmation_txt.ForeColor = System.Drawing.Color.MediumTurquoise;
-            this.LoginSignInConfirmation_txt.IdleBorderThickness = 1;
-            this.LoginSignInConfirmation_txt.IdleCornerRadius = 20;
-            this.LoginSignInConfirmation_txt.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInConfirmation_txt.IdleForecolor = System.Drawing.Color.MediumTurquoise;
-            this.LoginSignInConfirmation_txt.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
-            this.LoginSignInConfirmation_txt.Location = new System.Drawing.Point(105, 169);
-            this.LoginSignInConfirmation_txt.Margin = new System.Windows.Forms.Padding(5);
-            this.LoginSignInConfirmation_txt.Name = "LoginSignInConfirmation_txt";
-            this.LoginSignInConfirmation_txt.Size = new System.Drawing.Size(137, 41);
-            this.LoginSignInConfirmation_txt.TabIndex = 15;
-            this.LoginSignInConfirmation_txt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoginSignUpSave_btn.ActiveBorderThickness = 1;
+            this.LoginSignUpSave_btn.ActiveCornerRadius = 1;
+            this.LoginSignUpSave_btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpSave_btn.ActiveForecolor = System.Drawing.Color.MediumTurquoise;
+            this.LoginSignUpSave_btn.ActiveLineColor = System.Drawing.Color.MediumTurquoise;
+            this.LoginSignUpSave_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpSave_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginSignUpSave_btn.BackgroundImage")));
+            this.LoginSignUpSave_btn.ButtonText = "Save";
+            this.LoginSignUpSave_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginSignUpSave_btn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginSignUpSave_btn.ForeColor = System.Drawing.Color.MediumTurquoise;
+            this.LoginSignUpSave_btn.IdleBorderThickness = 1;
+            this.LoginSignUpSave_btn.IdleCornerRadius = 20;
+            this.LoginSignUpSave_btn.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpSave_btn.IdleForecolor = System.Drawing.Color.MediumTurquoise;
+            this.LoginSignUpSave_btn.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
+            this.LoginSignUpSave_btn.Location = new System.Drawing.Point(92, 211);
+            this.LoginSignUpSave_btn.Margin = new System.Windows.Forms.Padding(5);
+            this.LoginSignUpSave_btn.Name = "LoginSignUpSave_btn";
+            this.LoginSignUpSave_btn.Size = new System.Drawing.Size(137, 34);
+            this.LoginSignUpSave_btn.TabIndex = 15;
+            this.LoginSignUpSave_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
@@ -332,23 +338,23 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Password";
             // 
-            // LoginPasswordSignUp_txt
+            // LoginSignUpPassword_txt
             // 
-            this.LoginPasswordSignUp_txt.BorderColorFocused = System.Drawing.Color.White;
-            this.LoginPasswordSignUp_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginPasswordSignUp_txt.BorderColorMouseHover = System.Drawing.Color.White;
-            this.LoginPasswordSignUp_txt.BorderThickness = 1;
-            this.LoginPasswordSignUp_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LoginPasswordSignUp_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.LoginPasswordSignUp_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginPasswordSignUp_txt.isPassword = true;
-            this.LoginPasswordSignUp_txt.Location = new System.Drawing.Point(181, 134);
-            this.LoginPasswordSignUp_txt.Margin = new System.Windows.Forms.Padding(4);
-            this.LoginPasswordSignUp_txt.Name = "LoginPasswordSignUp_txt";
-            this.LoginPasswordSignUp_txt.Size = new System.Drawing.Size(146, 26);
-            this.LoginPasswordSignUp_txt.TabIndex = 13;
-            this.LoginPasswordSignUp_txt.Text = "eg 5678";
-            this.LoginPasswordSignUp_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginSignUpPassword_txt.BorderColorFocused = System.Drawing.Color.White;
+            this.LoginSignUpPassword_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignUpPassword_txt.BorderColorMouseHover = System.Drawing.Color.White;
+            this.LoginSignUpPassword_txt.BorderThickness = 1;
+            this.LoginSignUpPassword_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginSignUpPassword_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.LoginSignUpPassword_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignUpPassword_txt.isPassword = true;
+            this.LoginSignUpPassword_txt.Location = new System.Drawing.Point(181, 134);
+            this.LoginSignUpPassword_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginSignUpPassword_txt.Name = "LoginSignUpPassword_txt";
+            this.LoginSignUpPassword_txt.Size = new System.Drawing.Size(146, 26);
+            this.LoginSignUpPassword_txt.TabIndex = 13;
+            this.LoginSignUpPassword_txt.Text = "eg 5678";
+            this.LoginSignUpPassword_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label5
             // 
@@ -361,23 +367,23 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Staff ID";
             // 
-            // LoginStaffIdSignUp_txt
+            // LoginSignUpStaffId_txt
             // 
-            this.LoginStaffIdSignUp_txt.BorderColorFocused = System.Drawing.Color.White;
-            this.LoginStaffIdSignUp_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginStaffIdSignUp_txt.BorderColorMouseHover = System.Drawing.Color.White;
-            this.LoginStaffIdSignUp_txt.BorderThickness = 1;
-            this.LoginStaffIdSignUp_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LoginStaffIdSignUp_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.LoginStaffIdSignUp_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginStaffIdSignUp_txt.isPassword = false;
-            this.LoginStaffIdSignUp_txt.Location = new System.Drawing.Point(19, 134);
-            this.LoginStaffIdSignUp_txt.Margin = new System.Windows.Forms.Padding(4);
-            this.LoginStaffIdSignUp_txt.Name = "LoginStaffIdSignUp_txt";
-            this.LoginStaffIdSignUp_txt.Size = new System.Drawing.Size(146, 26);
-            this.LoginStaffIdSignUp_txt.TabIndex = 11;
-            this.LoginStaffIdSignUp_txt.Text = "eg 5678";
-            this.LoginStaffIdSignUp_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginSignUpStaffId_txt.BorderColorFocused = System.Drawing.Color.White;
+            this.LoginSignUpStaffId_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignUpStaffId_txt.BorderColorMouseHover = System.Drawing.Color.White;
+            this.LoginSignUpStaffId_txt.BorderThickness = 1;
+            this.LoginSignUpStaffId_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginSignUpStaffId_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.LoginSignUpStaffId_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignUpStaffId_txt.isPassword = false;
+            this.LoginSignUpStaffId_txt.Location = new System.Drawing.Point(19, 134);
+            this.LoginSignUpStaffId_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginSignUpStaffId_txt.Name = "LoginSignUpStaffId_txt";
+            this.LoginSignUpStaffId_txt.Size = new System.Drawing.Size(146, 26);
+            this.LoginSignUpStaffId_txt.TabIndex = 11;
+            this.LoginSignUpStaffId_txt.Text = "eg 5678";
+            this.LoginSignUpStaffId_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label4
             // 
@@ -390,23 +396,25 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Last name";
             // 
-            // LoginLastName_txt
+            // LoginSignUpLastName_txt
             // 
-            this.LoginLastName_txt.BorderColorFocused = System.Drawing.Color.White;
-            this.LoginLastName_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginLastName_txt.BorderColorMouseHover = System.Drawing.Color.White;
-            this.LoginLastName_txt.BorderThickness = 1;
-            this.LoginLastName_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LoginLastName_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.LoginLastName_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginLastName_txt.isPassword = false;
-            this.LoginLastName_txt.Location = new System.Drawing.Point(181, 75);
-            this.LoginLastName_txt.Margin = new System.Windows.Forms.Padding(4);
-            this.LoginLastName_txt.Name = "LoginLastName_txt";
-            this.LoginLastName_txt.Size = new System.Drawing.Size(146, 26);
-            this.LoginLastName_txt.TabIndex = 9;
-            this.LoginLastName_txt.Text = "Kane";
-            this.LoginLastName_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginSignUpLastName_txt.BorderColorFocused = System.Drawing.Color.White;
+            this.LoginSignUpLastName_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignUpLastName_txt.BorderColorMouseHover = System.Drawing.Color.White;
+            this.LoginSignUpLastName_txt.BorderThickness = 1;
+            this.LoginSignUpLastName_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginSignUpLastName_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.LoginSignUpLastName_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignUpLastName_txt.isPassword = false;
+            this.LoginSignUpLastName_txt.Location = new System.Drawing.Point(181, 75);
+            this.LoginSignUpLastName_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginSignUpLastName_txt.Name = "LoginSignUpLastName_txt";
+            this.LoginSignUpLastName_txt.Size = new System.Drawing.Size(146, 26);
+            this.LoginSignUpLastName_txt.TabIndex = 9;
+            this.LoginSignUpLastName_txt.Text = "eg Kane";
+            this.LoginSignUpLastName_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginSignUpLastName_txt.Enter += new System.EventHandler(this.LoginSignUpLastName_txt_Enter);
+            this.LoginSignUpLastName_txt.Leave += new System.EventHandler(this.LoginSignUpLastName_txt_Leave);
             // 
             // label3
             // 
@@ -419,23 +427,25 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "First name";
             // 
-            // LoginFirstName_txt
+            // LoginSignUpFirstName_txt
             // 
-            this.LoginFirstName_txt.BorderColorFocused = System.Drawing.Color.White;
-            this.LoginFirstName_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginFirstName_txt.BorderColorMouseHover = System.Drawing.Color.White;
-            this.LoginFirstName_txt.BorderThickness = 1;
-            this.LoginFirstName_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LoginFirstName_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.LoginFirstName_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.LoginFirstName_txt.isPassword = false;
-            this.LoginFirstName_txt.Location = new System.Drawing.Point(19, 75);
-            this.LoginFirstName_txt.Margin = new System.Windows.Forms.Padding(4);
-            this.LoginFirstName_txt.Name = "LoginFirstName_txt";
-            this.LoginFirstName_txt.Size = new System.Drawing.Size(146, 26);
-            this.LoginFirstName_txt.TabIndex = 7;
-            this.LoginFirstName_txt.Text = "Joseph";
-            this.LoginFirstName_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginSignUpFirstName_txt.BorderColorFocused = System.Drawing.Color.White;
+            this.LoginSignUpFirstName_txt.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignUpFirstName_txt.BorderColorMouseHover = System.Drawing.Color.White;
+            this.LoginSignUpFirstName_txt.BorderThickness = 1;
+            this.LoginSignUpFirstName_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LoginSignUpFirstName_txt.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.LoginSignUpFirstName_txt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.LoginSignUpFirstName_txt.isPassword = false;
+            this.LoginSignUpFirstName_txt.Location = new System.Drawing.Point(19, 75);
+            this.LoginSignUpFirstName_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginSignUpFirstName_txt.Name = "LoginSignUpFirstName_txt";
+            this.LoginSignUpFirstName_txt.Size = new System.Drawing.Size(146, 26);
+            this.LoginSignUpFirstName_txt.TabIndex = 7;
+            this.LoginSignUpFirstName_txt.Text = "eg Joseph";
+            this.LoginSignUpFirstName_txt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LoginSignUpFirstName_txt.Enter += new System.EventHandler(this.LoginSignUpFirstName_txt_Enter);
+            this.LoginSignUpFirstName_txt.Leave += new System.EventHandler(this.LoginSignUpFirstName_txt_Leave);
             // 
             // bunifuCustomLabel3
             // 
@@ -486,6 +496,35 @@
             this.X.UseVisualStyleBackColor = true;
             this.X.Click += new System.EventHandler(this.X_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.Location = new System.Drawing.Point(18, 176);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(115, 16);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "Confirm password";
+            // 
+            // bunifuMetroTextbox1
+            // 
+            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.White;
+            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.White;
+            this.bunifuMetroTextbox1.BorderThickness = 1;
+            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuMetroTextbox1.isPassword = true;
+            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(181, 176);
+            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
+            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(146, 26);
+            this.bunifuMetroTextbox1.TabIndex = 18;
+            this.bunifuMetroTextbox1.Text = "eg 5678";
+            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
             // Login
             // 
             this.AllowDrop = true;
@@ -493,7 +532,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(13)))), ((int)(((byte)(13)))));
             this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(361, 347);
+            this.ClientSize = new System.Drawing.Size(367, 347);
             this.Controls.Add(this.X);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.LoginSignUpPanel);
@@ -519,27 +558,29 @@
         private System.Windows.Forms.Panel LoginSignUpPanel;
         private System.Windows.Forms.Panel LoginLoginPanel;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
-        private Bunifu.Framework.UI.BunifuThinButton2 LoginSignIn_btn;
+        private Bunifu.Framework.UI.BunifuThinButton2 LoginSignInSignIn_btn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox LoginStaffPass_txt;
-        private Bunifu.Framework.UI.BunifuMetroTextbox LoginStaffId_txt;
-        private Bunifu.Framework.UI.BunifuThinButton2 LoginSignUpRedirect_lbl;
+        private Bunifu.Framework.UI.BunifuMetroTextbox LoginSignInStaffPass_txt;
+        private Bunifu.Framework.UI.BunifuMetroTextbox LoginSignInStaffId_txt;
+        private Bunifu.Framework.UI.BunifuThinButton2 LoginSignUpRedirect_btn;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
-        private Bunifu.Framework.UI.BunifuMetroTextbox LoginAdminToken;
-        private Bunifu.Framework.UI.BunifuThinButton2 LoginSignInConfirmation_txt;
+        private Bunifu.Framework.UI.BunifuMetroTextbox LoginAdminToken_txt;
+        private Bunifu.Framework.UI.BunifuThinButton2 LoginSignUpSave_btn;
         private System.Windows.Forms.Label label6;
-        private Bunifu.Framework.UI.BunifuMetroTextbox LoginPasswordSignUp_txt;
+        private Bunifu.Framework.UI.BunifuMetroTextbox LoginSignUpPassword_txt;
         private System.Windows.Forms.Label label5;
-        private Bunifu.Framework.UI.BunifuMetroTextbox LoginStaffIdSignUp_txt;
+        private Bunifu.Framework.UI.BunifuMetroTextbox LoginSignUpStaffId_txt;
         private System.Windows.Forms.Label label4;
-        private Bunifu.Framework.UI.BunifuMetroTextbox LoginLastName_txt;
+        private Bunifu.Framework.UI.BunifuMetroTextbox LoginSignUpLastName_txt;
         private System.Windows.Forms.Label label3;
-        private Bunifu.Framework.UI.BunifuMetroTextbox LoginFirstName_txt;
+        private Bunifu.Framework.UI.BunifuMetroTextbox LoginSignUpFirstName_txt;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator2;
-        private Bunifu.Framework.UI.BunifuThinButton2 LoginSignInRed_btn;
+        private Bunifu.Framework.UI.BunifuThinButton2 LoginSignInRedirect_btn;
         private System.Windows.Forms.Button X;
+        private System.Windows.Forms.Label label7;
+        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
     }
 }
 

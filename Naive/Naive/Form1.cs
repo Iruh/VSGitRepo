@@ -31,12 +31,12 @@ namespace Naive
 
         private void LoginStaffId_txt_OnValueChanged(object sender, EventArgs e)
         {
-            LoginStaffId_txt.ForeColor = Color.White;
+            LoginSignInStaffId_txt.ForeColor = Color.White;
         }
 
         private void LoginStaffPass_txt_OnValueChanged(object sender, EventArgs e)
         {
-            LoginStaffPass_txt.ForeColor = Color.White;
+            LoginSignInStaffPass_txt.ForeColor = Color.White;
         }
 
         private void LoginSignUpRedirect_lbl_Click(object sender, EventArgs e)
@@ -70,6 +70,60 @@ namespace Naive
         private void X_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void LoginSignInStaffId_txt_Enter(object sender, EventArgs e)
+        {
+            LoginSignInStaffId_txt.ForeColor = Color.White;
+            if (LoginSignInStaffId_txt.Text== "eg 5678")
+            {
+                LoginSignInStaffId_txt.Text = "";
+            }
+        }
+
+        private void LoginSignInStaffId_txt_Leave(object sender, EventArgs e)
+        {
+            LoginSignInStaffId_txt.ForeColor = Color.Gray;
+            if (LoginSignInStaffId_txt.Text == "")
+            {
+                LoginSignInStaffId_txt.Text = "eg 5678";
+            }
+        }
+
+        private void LoginSignUpFirstName_txt_Enter(object sender, EventArgs e)
+        {
+            LoginSignUpFirstName_txt.ForeColor = Color.White;
+            if (LoginSignUpFirstName_txt.Text == "eg Joseph")
+            {
+                LoginSignUpFirstName_txt.Text = "";
+            }
+        }
+
+        private void LoginSignUpFirstName_txt_Leave(object sender, EventArgs e)
+        {
+            LoginSignUpFirstName_txt.ForeColor = Color.Gray;
+            if (LoginSignUpFirstName_txt.Text == "")
+            {
+                LoginSignUpFirstName_txt.Text = "eg Joseph";
+            }
+        }
+
+        private void LoginSignUpLastName_txt_Enter(object sender, EventArgs e)
+        {
+            LoginSignUpLastName_txt.ForeColor = Color.White;
+            if (LoginSignUpLastName_txt.Text == "eg Kane")
+            {
+                LoginSignUpLastName_txt.Text = "";
+            }
+        }
+
+        private void LoginSignUpLastName_txt_Leave(object sender, EventArgs e)
+        {
+            LoginSignUpLastName_txt.ForeColor = Color.Gray;
+            if (LoginSignUpLastName_txt.Text == "")
+            {
+                LoginSignUpLastName_txt.Text = "eg Kane";
+            }
         }
     }
 }
