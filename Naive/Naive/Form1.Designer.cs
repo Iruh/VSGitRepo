@@ -59,6 +59,7 @@
             this.X = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.LoginLoginPanel.SuspendLayout();
             this.LoginSignUpPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -146,6 +147,7 @@
             this.LoginSignInSignIn_btn.Size = new System.Drawing.Size(137, 41);
             this.LoginSignInSignIn_btn.TabIndex = 9;
             this.LoginSignInSignIn_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoginSignInSignIn_btn.Click += new System.EventHandler(this.LoginSignInSignIn_btn_Click);
             // 
             // label2
             // 
@@ -525,6 +527,13 @@
             this.bunifuMetroTextbox1.Text = "eg 5678";
             this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this;
+            this.bunifuDragControl1.Vertical = true;
+            // 
             // Login
             // 
             this.AllowDrop = true;
@@ -581,6 +590,7 @@
         private System.Windows.Forms.Button X;
         private System.Windows.Forms.Label label7;
         private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
     }
 }
 

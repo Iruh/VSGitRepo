@@ -125,5 +125,12 @@ namespace Naive
                 LoginSignUpLastName_txt.Text = "eg Kane";
             }
         }
+
+        private void LoginSignInSignIn_btn_Click(object sender, EventArgs e)
+        {
+            Main obj = new Main();
+            this.Hide();
+            obj.Show();
+        }
     }
 }
